@@ -8,7 +8,7 @@ const toLogout = async () => {
   const [, data] = await to(userStore.logout());
 
   if (data) {
-    await navigateTo("/login", { replace: true });
+    navigateTo("/");
   }
 };
 </script>

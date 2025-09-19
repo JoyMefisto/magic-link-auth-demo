@@ -1,6 +1,6 @@
 <template>
   <div>
-    <AppHeader v-if="$route.name !== 'login'" />
+    <AppHeader />
     <main class="w-7xl mx-auto">
       <slot />
     </main>
